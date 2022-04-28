@@ -80,11 +80,18 @@ header a:visited {
 #arrow-down {
     position: absolute;
     bottom: 64px;
-    left: 0;
+    left: 30px;
     right: 0;
     margin: 0 auto;
     display: block;
     width: 64px;
+    color: white;
+    transition: 0.2s;
+}
+
+#arrow-down:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
 }
 
 /******************************** INTRO SECTION ********************************/
@@ -92,6 +99,16 @@ header a:visited {
 
 #intro-section {
     background: #e7e6e1;
+}
+
+.intro-icon {
+    width: 96px;
+    transition: 0.2s;
+}
+
+.intro-icon:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
 }
 
 /******************************** ABOUT SECTION ********************************/
@@ -152,7 +169,9 @@ header a:visited {
 /******************************** MAP SECTION********************************/
 
 
-
+#map {
+    height: 500px;
+}
 
 
 
@@ -167,6 +186,15 @@ footer {
     background: #312423 ;
 }
 
+footer a i {
+    color: rgb(192, 186, 186);
+    transition: 0.2s;
+}
+
+footer a i:hover {
+    transform: scale(1.2);
+    transition: 0.4s;
+}
 @media (max-widh: 768px) {
    
     footer p {

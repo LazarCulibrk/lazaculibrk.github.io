@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffe Shop Website Example</title>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="leaftlet/leaflet.css">
+    <script src="https://kit.fontawesome.com/a160f6541b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./boost-trap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./boost-trap/css/style.css">
 </head>
 <body>
 
     <div id="mobile-menu">
-        <a id="close-btn" href="#"><img src="./img/close-btn.png" class="img-fluid" alt="close"></a>
+        <a id="close-btn" href="#"><i class="fa-regular fa-circle-xmark fa-3x"></i></a>
         <div class="container">
             <div class="row vh-100 align-items-center">
                 <div class="col-12 text-center">
@@ -41,7 +43,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-4">
-                    <img id="header-logo" src="./img/header-logo.png" alt="coffee shop header logo">
+                    <img id="header-logo" src="svg/header-logo.svg" alt="coffee shop header logo">
                 </div>
                 <div class="d-none d-md-block col-8" style="text-align: right;">
                     <a class="text-decoration-none text-uppercase" style="font-size: large;" href="#intro-section">About</a>
@@ -50,7 +52,7 @@
                     <a class="text-decoration-none text-uppercase" style="font-size: large;" href="#map-section">How to find us?</a>
                 </div>
                 <div class="d-md-none col-8 " style="text-align: right;">
-                    <a href="#" id="menu-btn"><img id="menu-icon" src="./img/menu.png " alt=""></a>
+                    <a href="#" id="menu-btn"><i class="fa-solid fa-bars fa-3x"></i></a>
                 </div>
             </div>
         </div>
@@ -64,7 +66,7 @@
         <div class="container-fluid">
             <div class="row vh-100 align-items-center pb-5">
                 <div class="col-12 text-center" style="position: absolute;">
-                    <img id="hero-logo" src="img/logo.png" alt="coffee shop logo">
+                    <img id="hero-logo" src="svg/logo.svg" alt="coffee shop logo">
                     <h1 class="display-1 " style="font-weight: bold; ">THE HOME OF COFFEE</h1>
                     <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam doloremque sit possimus exercitationem nesciunt sequi?</p>
                 </div>
@@ -72,7 +74,7 @@
             </div>
         </div>
 
-        <a id="arrow-down" href="#intro-section"><img src="./img/arrow-down.png" alt="see more"></a>
+        <a id="arrow-down" href="#intro-section"><i class="fa-solid fa-circle-chevron-down fa-3x"></i></a>
     </section>
 
     <section id="intro-section" class="py-5">
@@ -90,15 +92,15 @@
             </div>
             <div class="row py-5 ">
                 <div class="col-sm-4 text-center py-5 ">
-                    <img class="img-fluid py-3" src="img/icon-1.png" alt="">
+                    <img class="intro-icon img-fluid py-3" src="svg/icon-1.svg" alt="">
                     <p  style="font-weight: bold;" class="h4 py-2">BEST BEANS</p>
                 </div>
                 <div class="col-sm-4 text-center py-5 ">
-                    <img class="img-fluid py-3" src="img/icon-2.png" alt="">
+                    <img class="intro-icon img-fluid py-3" src="svg/icon-2.svg" alt="">
                     <p  style="font-weight: bold;" class="h4 py-2">QUALITY MILK</p>
                 </div>
                 <div class="col-sm-4 text-center py-5">
-                    <img class="img-fluid py-3" src="img/icon-3.png" alt="">
+                    <img class="intro-icon img-fluid py-3" src="svg/icon-3.svg" alt="">
                     <p  style="font-weight: bold;" class="h4 py-2">PERFECT BLEND</p>
                 </div>
             </div>
@@ -245,13 +247,13 @@
                     <h2 style="font-weight: bold;">CONTACT</h2>
                     <br>
                     <h2>PHONE</h2>
-                    <p>+(381) 61 4242 133</p>
+                    <p>+(000) 111 222 333</p>
                     <br>
                     <h4>MAIL</h4>
-                    <p>lculibrk2002@gmail.com</p>
+                    <p>address@domain.com</p>
                     <br>
                     <h4>ADDRESS</h4>
-                    <p>13a/9,  Vojnički trg, Vršac</p> 
+                    <p>543 TN,  doula street NY, New York</p> 
                 </div>
 
             </div>
@@ -261,20 +263,20 @@
 
 
     <section id="map-section">
-
+        <div id="map"></div>
     </section>
 
     <footer>
         <div class="container-fluid text-light py-3 ">
             <div class="row">
                 <div class="col-md-5 offset-md-1 align-self-center">
-                   <p>Coffee Sop | @ Lazar Ćulibrk 2022</p> 
+                   <p>Coffee Sop | @ 2020 All rights reserved</p> 
                 </div>
                 <div class="col-md-5  " style="text-align:right;">
-                    <a href="#"><img src="./img/facebook-icon.png" alt=""></a>
-                    <a href="#" class="mx-3"><img src="./img/instagram-icon.png" alt=""></a>
-                    <a href="#" class="mx-3"><img src="./img/twitter-icon.png" alt=""></a>
-                    <a href="#"><img src="./img/phone-icon.png" alt=""></a>
+                    <a href="#"><i class="fa-brands fa-facebook-square fa-3x"></i></a>
+                    <a href="#" class="mx-3"><i class="fa-brands fa-instagram-square fa-3x"></i></a>
+                    <a href="#" class="mx-3"><i class="fa-brands fa-twitter-square fa-3x"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp-square fa-3x"></i></a>
                 </div>
             </div>
         </div>
@@ -283,9 +285,12 @@
 
     <script src="./boost-trap/js/jquery-3.6.0.slim.min.js"></script>
     <script src="./boost-trap/js/bootstrap.bundle.min.js"></script>
+    <script src="leaftlet/leaflet.js"></script>
     
     <script>
         window.addEventListener("load", function(){
+
+            
             let menuBtn= document.getElementById("menu-btn");
             let mobileMenu= document.getElementById("mobile-menu");
             let closeBtn= document.getElementById("close-btn");
@@ -304,12 +309,16 @@
                 mobileMenuItems[i].addEventListener("click", function(){
                     mobileMenu.style.display = "none";
                 });
+
+
                 
-            }
+            }  
+
+
             
 
             //for header 
-            
+            /*
             let heroSection = document.getElementById("hero-section");
             let heroSectionHeight = heroSection.clientHeight;
             
@@ -326,7 +335,42 @@
                         header.classList.remove("solid-header");
                     }
                 }
-            }) 
+            }) */
+
+            $(document).scroll(function(){
+                let header = $("#header");
+
+                if ($(this).scrollTop() > $("#hero-section").height()){
+                    if(!header.hasClass("solid-header")){
+                        header.addClass("solid-header");
+                    }
+                }else {
+                    if(header.hasClass("solid-header")){
+                        header.removeClass("solid-header");
+                    }
+                }
+            });
+
+
+
+            var myMap= L.map('map', {
+                center: [40.741770, -73.983090],
+                zoom: 17
+            })
+
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+            { attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(myMap);
+
+            var myIcon = L.icon ({
+            iconUrl: 'img/map-icon.png' 
+            });
+            
+            var marker = L.marker([40.741770, -73.983090], {
+                icon: myIcon
+            }).addTo(myMap);
+
+            marker.bindPopup("We are here !!!")
+
         });
     </script>
 </body>
